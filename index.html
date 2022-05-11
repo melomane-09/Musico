@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Musico</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel = "icon" href = "logo.png " type = "image/x-icon">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo.png" alt="Spotify">Musico </li> 
+            </ul>
+        </nav>
+        
+        <div class="container">
+            
+            <div class="songlist">
+                <h1>PLAYLIST-1</h1>
+                <div class="songitem-con">
+                    <div class="songitem">
+                        <img src="aaftaab.jpg" alt ="1">
+                        <span class="songName">Aaftab</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="0" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                    <div class="songitem">
+                        <img src="afreen afreen.jpg" alt ="1">
+                        <span class="songName">Afreen Afreen</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="1" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                
+                    <div class="songitem">
+                        <img src="beparwah.jpg" alt ="1">
+                        <span class="songName">Beparwah</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="2" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                    <div class="songitem">
+                        <img src="chan kithan.jpg" alt ="1">
+                        <span class="songName">Chan Kithan</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="3" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                    <div class="songitem">
+                        <img src="chandni raat.jpg" alt ="1">
+                        <span class="songName">Chandni Raat</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="4" class="far smallplay fa fa-play-circle" ></i></span>
+                    </div>
+                    <div class="songitem">
+                        <img src="dil lagaayein.jpg" alt ="1">
+                        <span class="songName">Dil Lagaayein</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="5" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                    <div class="songitem">
+                        <img src="pasoori.jpg" alt ="1">
+                        <span class="songName">Pasoori</span>
+                        <span class="songlistplay"><span class="timestamp">05.34</span><i id="6" class="far smallplay fa fa-play-circle"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="songbanner"></div>
+        </div>
+
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100">
+            <div class="icons">
+                <!--fontawesome icons-->
+                <i class="fas fa-2x fa-step-backward" id="previous"></i>
+                <i class="far fa-2x fa-play-circle" id="playbutton"></i>
+                <i class="fas fa-2x fa-step-forward" id="next"></i>
+
+            </div>
+            <div id="songnameinfo">
+                Aaftaab - The Local Train
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/1df859426c.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
